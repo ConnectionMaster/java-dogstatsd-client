@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.livestream</groupId>
+  <groupId>com.datadoghq</groupId>
   <artifactId>java-dogstatsd-client</artifactId>
   <packaging>jar</packaging>
   <name>java-dogstatsd-client</name>
@@ -69,12 +69,12 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>Livestream_Snapshots</id>
+      <url>https://nexus.lsops.org/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
     <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>Livestream_Releases</id>
+      <url>https://nexus.lsops.org/nexus/content/repositories/releases</url>
     </repository>
   </distributionManagement>
 
