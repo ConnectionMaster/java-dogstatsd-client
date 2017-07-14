@@ -69,11 +69,11 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>Livestream_Snapshots</id>
+      <id>Livestream Snapshots Publisher</id>
       <url>https://nexus.lsops.org/nexus/content/repositories/snapshots</url>
     </snapshotRepository>
     <repository>
-      <id>Livestream_Releases</id>
+      <id>Livestream Releases Publisher</id>
       <url>https://nexus.lsops.org/nexus/content/repositories/releases</url>
     </repository>
   </distributionManagement>
@@ -126,7 +126,7 @@
 <!--           </execution> -->
 <!--         </executions> -->
 <!--       </plugin> -->
-      <plugin>
+      <!-- <plugin>
         <groupId>org.sonatype.plugins</groupId>
         <artifactId>nexus-staging-maven-plugin</artifactId>
         <version>1.6.3</version>
@@ -136,7 +136,7 @@
             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
             <autoReleaseAfterClose>true</autoReleaseAfterClose>
         </configuration>
-      </plugin>
+      </plugin> -->
     </plugins>
   </build>
 
